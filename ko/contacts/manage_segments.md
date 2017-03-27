@@ -1,10 +1,9 @@
-Manage Segments
+세그먼트 관리
 ===============
 
-Lead lists were renamed to segments in Mautic 1.4.0.
+Lead 리스트는 Mautic 1.4.0 에서 세그먼트로 이름이 변경되었습니다.
 
-Segments provide ways to easily organize your contacts. These segments can be
-configured from a variety of fields.
+세그먼트는 연락처를 쉽게 구성할 수 있는 방법을 제공합니다. 이 세그먼트는 다양한 필드 분야에서 구성됩니다.
 
 When viewing all segments you will notice the column on the right which shows
 the number of contacts matching that particular segment.
