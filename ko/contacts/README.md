@@ -6,10 +6,10 @@ Contacts are the central factor of a marketing automation platform. These are al
 
 ### 연락처 유형
 
-There are two types of contacts:
-* **Visitors** (formerly anonymous leads) — visitors to your site who have not yet been identified by a form or other interaction.
+연락처에는 다음과 같은 2가지 유형이 있습니다:
+* **방문객** (formerly anonymous leads) — visitors to your site who have not yet been identified by a form or other interaction.
   * These contacts are tracked by Mautic but typically remain hidden so as not to clutter your segment.
-* **Standard contacts** — contacts which have identified themselves via a form or some other source. As a result, these contacts typically have a name, email, and other identifying fields.
+* **표준 연락처** — contacts which have identified themselves via a form or some other source. As a result, these contacts typically have a name, email, and other identifying fields.
 
 #### 방문객 (formerly anonymous leads)
 
@@ -19,12 +19,12 @@ You can view visitors by using the 'table view' (use the "t" keyboard shortcut t
 
 Visitors are worth tracking, because these could be future customers. By tracking them before they have any interaction, you can retain a log of when they visited your site, which allows you to get a picture of their activity prior to engaging with you.
 
-##### Search Text
+##### 텍스트 검색
 
 ```
 is:anonymous
 ```
-##### Screenshot
+##### 스크린샷
 
 ![](/contacts/media/contacts-anonymous.jpg)
 The resulting list will be those IP addresses which have not yet provided identifying information.

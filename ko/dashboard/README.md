@@ -16,7 +16,8 @@ The only exceptions of widgets which display the same information independent on
 
 ## 위젯
 
-*Warning: Do not create too many widgets. It can slow the dashboard page load down. If you have performance issues, decrease the amount of widgets.*
+*주의: 위젯을 너무 많이 생성하지 마십시오. 대시보드 페이지가 느려질 수 있습니다. 만약 성능상의 이슈가 있다면, 위젯 갯수를 줄이시기 바랍니다.*
+
 
 A new widget can be added to your dashboard when you click on the "Add widget" button. In the "Add wigteg" form which appears after each widget will let you define:
 

@@ -1,10 +1,10 @@
-# Contact Import
+# 연락처 가져오기
 
 Contact can be imported via user interface from a CSV file.
 
-## How to import contacts
+## 연락처 가져오는 방법
 
-1. Go to *Contacts*.
+1. *연락처*로 이동합니다.
 2. In the top right corner above the table of contacts open the sub menu of actions and select the *Import* option.
 3. Upload the CSV file with contacts you want to import.
 4. Addjust the CSV settings if your CSV file use something else as a delimiter, enclosure and so on.
@@ -14,7 +14,7 @@ Contact can be imported via user interface from a CSV file.
 8. A page with a progress bar will appear so you can see the actual state of the import in progress.
 9. When the import is finished, the potential import issues will appear bellow the progress bar.
 
-## Requirements
+## 필수사항
 
 - The CSV file must be in UTF8 encoding. Other encoding may cause troubles while importing. Read documentation of your spreadsheet program on how to export a spreadsheet to UTF8. Google Sheets encodes to UTF8 automatically, Libre/Open Office let you choose before export.
 
@@ -22,7 +22,7 @@ Contact can be imported via user interface from a CSV file.
 
 - In case of date/time values, use `YYYY-mm-dd HH:ii:ss` format i.e. `2017:01:02 19:08:00`. Other formats may work too, but it may cause troubles.
 
-## Tips
+## 팁
 
 - Name the column names the same as Mautic contact custom field names. This way Mautic automatically pre-selects the mapping for you. For example if you name the first name column as `firstname`, this field will be mapped automatically.
 
