@@ -10,7 +10,7 @@ the number of contacts matching that particular segment.
 
 ![](/contacts/media/contact-segments.jpg)
 
-### Segment Filters
+### 세그먼트 필터
 
 ![](/contacts/media/segment-filters.jpg)
 
@@ -32,7 +32,7 @@ result as intersection of the subsets. You can then manipulate the contacts to r
 
 ![](/contacts/media/common-leads-in-segments.jpg)
 
-### Segments
+### 세그먼트
 
 Once you have created your segment, any applicable contact will be automatically
 added through the execution of a cron job. This is the essence of segments.
