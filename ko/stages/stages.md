@@ -1,6 +1,6 @@
-# Stages
+# 스테이지
 
-### Stages Overview
+### 스테이지 개요
 
 Stages is a way to define the lifecycle of a contact. Creates stages based on your marketing stages, and move your contacts from stage to stage.
 

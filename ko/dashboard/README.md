@@ -49,7 +49,7 @@ Some widgets have additional options:
 
 ### 위젯 표시 순서
 
-Each widget can change its location by drag&dropping. The handle is its name.
+각 위젯들은 드래그앤 드롭하여 위치를 변경할 수 있습니다. 핸들은 각각의 이름입니다.
 
 ## 대시보드 내보내기
 

@@ -13,7 +13,7 @@ For instance:
  
 ## Required ##
 
-### Segments ###
+### 세그먼트 ###
 **To keep the segments current:**
 
 ```
@@ -24,7 +24,7 @@ By default, the script will process contacts in batches of 300. If this is too m
 
 You can also limit the number of contacts to process per script execution using `--max-contacts` to further limit resources used.
 
-### Campaigns ###
+### 캠페인 ###
 **To keep campaigns updated with applicable contacts:**
 
 ```
@@ -69,7 +69,7 @@ If using the [Bounce Management](./../emails/bounce_management.html),
 php /path/to/mautic/app/console mautic:email:fetch
 ```
 
-### Social Monitoring ###
+### 소셜 모니터링 ###
 
 If using the [Social Monitoring](./../social-monitoring/index.html),
 
@@ -111,11 +111,11 @@ Starting with Mautic 2.2.0, it is now possible to use cron to send scheduled bro
 php /path/to/mautic/app/console mautic:broadcasts:send [--id=ID] [--channel=CHANNEL]
 ```
 
-## Note ##
+## 노트 ##
 
 For releases prior to 1.1.3, it is required to append ` --env=prod` to the cron job command to ensure commands execute correctly.
 
-## Tips & Troubleshooting ##
+## 팁과 문제 해결 ##
 
 If your environment provides a command-line specific build of php, often called `php-cli`, you may want to use that instead of `php` as it will have a cleaner output.  On BlueHost and probably some other PHP hosts, the `php` command might be setup to discard the command-line parameters to `console`, in which case you must use `php-cli` to make the cron jobs work.
 

@@ -1,4 +1,4 @@
-# General troubleshooting
+# 일반적인 문제 해결
 
 Follow these steps to solve your issue as fast as possible.
 
