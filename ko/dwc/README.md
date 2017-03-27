@@ -1,4 +1,4 @@
-# Dynamic Web Content
+# 동적 웹 콘텐츠
 
 Mautic 2.0 introduced the ability to embed content on a web page dynamically for both anonymous visitors and known contacts.
 
@@ -31,6 +31,6 @@ Note the data-slot-name matches the slot name in the campaign.
 
 Watch a video tutorial:  (https://www.youtube.com/watch?v=eChzJm5yBUk)
 
-## Translations
+## 번역
 
 Dynamic web content supports translated content. When creating/editing a dynamic web content item, there are the options to set a language and select a translation parent. By selecting a translation parent, the current item is then considered to be a translation in the selected language of that parent item. 

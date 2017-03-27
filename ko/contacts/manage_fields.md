@@ -1,4 +1,4 @@
-# Custom Fields
+# 사용자 정의 필드
 
 You can manage custom fields through the admin menu (click the cogwheel upper right hand side of Mautic). 
 
@@ -19,7 +19,7 @@ The check mark which shows before each label title is a clickable toggle which w
 
 ![](/contacts/media/unpublish-fields.gif)
 
-### New Field
+### 새로운 필드
 
 You can create additional custom fields and define the data type you want that field to hold. In addition to the data type you will also select the group for that particular field. This will define where the field displays on the contact edit and detail view.
 
