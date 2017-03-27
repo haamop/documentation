@@ -1,10 +1,10 @@
-The **Components** menu contains the following items:
+**구성요소** 메뉴에는 다음과 같은 아이템이 제공됩니다:
 
-* Assets
-* Dynamic Web Content
-* Forms
-* Landing Pages
+* 자산
+* 동적 웹 콘텐츠
+* 폼
+* 방문 페이지
 
-These items must be created before you can use them in a campaign.
+각 항목들을 캠페인에서 사용하기 전에 생성하여야 합니다.
 
 ![](/components/media/components-dropdown.jpg)
