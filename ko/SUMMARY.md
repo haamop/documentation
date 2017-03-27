@@ -76,5 +76,5 @@
     * [테마 구조](themes/theme_structure.md)
     * [코드 모드](themes/code_mode.md)
 * [번역](translations/README.md)
-* [팀과 트릭](tips/tipstricks_md.md)
+* [팁과 트릭](tips/tipstricks_md.md)
    * [일반적인 문제해결](tips/troubleshooting.md)
