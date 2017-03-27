@@ -9,13 +9,13 @@
 
 ### 문서의 배포
 
-This repository is the source code for [Gitbook](https://www.gitbook.com/) published at [www.mautic.org/docs](https://www.mautic.org/docs/index.html). The source code is shared here on GitHub so anyone could contribute to the documentation the same way the programmers do with the actual Mautic code.
+이 저장소는 [www.mautic.org/docs](https://www.mautic.org/docs/index.html)에 게시된 Gitbook의 소스 코드입니다. 소스 코드는 GitHub에서 공유되므로 실제 Mautic 코드를 사용하는 프로그래머와 같은 방식으로 누구나 문서 작성에 기여할 수 있습니다.
 
 #### 문서에서 git 을 사용한 이유
 
-- *versions*. Anyone can go back an look how the text looked like.
+- *버전*. Anyone can go back an look how the text looked like.
 - *authorship*. Not only every file, but every line has its author.
-- *community contributions*. No need to worry about deleting someone else's work while working on the same document.
+- *커뮤니티 배포자*. No need to worry about deleting someone else's work while working on the same document.
 
 Although some git knowledge is required to clone, modify, commit and push changes, there is a way how to avoid that and edit the files directly in the GitHub web interface. If you know git, use the workflow you like. If not, following guide will show you how to contribute easily.
 
