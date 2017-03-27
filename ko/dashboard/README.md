@@ -1,8 +1,8 @@
-# Dashboard
+# 대시보드
 
 Mautic 1.4.0 brought a customizable dashboard where each user can compose widgets with information she/he wants to track.  Mautic 2.0 brought a number of enhancements to the Dashboard.
 
-## Date range filter
+## 일자 범위 필터
 
 All the widgets will display data in the selected global date range filter at the top of the widget list. The default date range is set from 30 days ago to today. Line charts will change the time unit automatically depending on the day count selected in the date range filter like this:
 
@@ -14,7 +14,7 @@ Date range is greater than 1001 days: Years
  
 The only exceptions of widgets which display the same information independent on the date range are *Upcoming emails* and *Recent activity*.
 
-## Widgets
+## 위젯
 
 *Warning: Do not create too many widgets. It can slow the dashboard page load down. If you have performance issues, decrease the amount of widgets.*
 
@@ -47,15 +47,15 @@ Some widgets have additional options:
 - Unique visits - Displays 1 line with unique visits (contacts).
 - Total and unique visits - Displays 2 lines with unique and all visits.
 
-### Widget ordering
+### 위젯 표시 순서
 
 Each widget can change its location by drag&dropping. The handle is its name.
 
-## Dashboard export
+## 대시보드 내보내기
 
 Each dashboard as you configure it can be exported to a single file. You can make a backup for another time, send it to a colleague or share it online. It exports only the widget configuration. Not the data in them.
 
-## Dashboard import
+## 대시보드 가져오기
 
 If you export a dashboard, you can then upload it and import it again in the Dashboard Import page.
 
@@ -65,11 +65,11 @@ Previewed - It will display the dashboard widgets for preview. It will load in t
 Applied - It applies the dashobard as your dashboard. Warning: Your current widgets will be deleted by this action! Export the current dashboard if you want to get back to it later.
 Deleted - It will delete the predefined dashboard.
 
-## Widget cache
+## 위젯 캐시
 
 The WidgetDetailEvent automatically caches the widget detail data for a period of time defined in the configuration. Default cache expiration period is 10 minutes.
 
-## Dashboard Permissions
+## 대시보드 권한
 
 If a Mautic user doesn't have the see others or see own permissions for a bundle, she/he won't be able to create widgets for said bundle. However, the widget can still be visible at hers/his dashboard. For example if a user creates the widgets and then the admin removes the permission or via import. In that case the widget is there, but with a message that the user doesn't have permission to see the data.
 
