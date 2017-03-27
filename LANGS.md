@@ -1,6 +1,7 @@
 * [English](en)
 * [Français](fr)
 * [日本語](jp)
+* [한국어](ko)
 
 <!--
 * [Deutsch](de)
@@ -17,7 +18,6 @@
 * [हिन्दी, हिंदी](hi)
 * [Magyar](hu)
 * [Bahasa Indonesia](id)
-* [한국어, 조선어](ko)
 * [македонски јазик](mk)
 * [Nederlands](nl)
 * [język polski](pl)
