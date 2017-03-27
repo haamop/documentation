@@ -1,17 +1,17 @@
-# Mautic Documentation
+# Mautic 문서
 
-### Introduction
-This book serves as the [documentation for Mautic](https://www.mautic.org/docs/index.html), the open source marketing automation system. Everyone is welcome to help make this information better and improve as needed.
+### 소개
+이 서적은 오픈 소스 마케팅 자동화 시스템인 [Mautic을 위한 문서](https://www.mautic.org/docs/index.html)이다. 누구나 이 정보를 개선하고 필요한 부분을 변경할 수 있다.
 
-### Download as PDF
+### PDF로 다운로드
 
-[Click here](https://mautic.org/docs/mautic_docs_en.pdf) to download these docs as a PDF.
+이 문서들을 PDF 로 다운로드 하려면, [여기를 클릭](https://mautic.org/docs/mautic_docs_en.pdf) 하십시오.
 
-### How to contribute to the docs
+### 문서의 배포
 
 This repository is the source code for [Gitbook](https://www.gitbook.com/) published at [www.mautic.org/docs](https://www.mautic.org/docs/index.html). The source code is shared here on GitHub so anyone could contribute to the documentation the same way the programmers do with the actual Mautic code.
 
-#### Why is git used for the documentation
+#### 문서에서 git 을 사용한 이유
 
 - *versions*. Anyone can go back an look how the text looked like.
 - *authorship*. Not only every file, but every line has its author.
@@ -19,7 +19,7 @@ This repository is the source code for [Gitbook](https://www.gitbook.com/) publi
 
 Although some git knowledge is required to clone, modify, commit and push changes, there is a way how to avoid that and edit the files directly in the GitHub web interface. If you know git, use the workflow you like. If not, following guide will show you how to contribute easily.
 
-#### Edit documents in a browser
+#### 브라우저에서 문서 편집
 
 1. [Fork](https://github.com/mautic/documentation#fork-destination-box) this repository under your account so you'd have permission to edit.
 2. Select a file to edit. The file structure is explained below. Now, let's edit the *README.md* file to show the principles. Click on it.
@@ -32,7 +32,7 @@ Although some git knowledge is required to clone, modify, commit and push change
 
 If you want to clean after the testing, go to the *Branches* section and delete the testing branch.
 
-#### The file structure
+#### 파일 구조
 
 We've worked with the *README.md* file in the previous section. This file is shown in the home page of a GitHub repository and you are reading its content right now. It doesn't have anything to do with the Mautic documentation.
 
@@ -40,7 +40,7 @@ The *SUMMARY.md* file defines the menu of the documentation. If you'll add a new
 
 The folders are here to group the topics together. Open for example the *asset* folder. You'll see it has its own *README.md* file. It is the main content when you click on the Asset menu item. The *manage_assets.md* file is a subitem. The *media* subfolder contains all the images used in the *md* files.
 
-#### Links
+#### 링크
 
 Often you'll want to make a link into another place of the documentation. In Markdown, the link looks like this:
 
@@ -55,7 +55,7 @@ This will create an external link with absolute URL. If you want to create an in
 ```
 This will link to `plugins/integration_test.html` on the documentation website created from the *md* source file.
 
-#### Images
+#### 이미지
 
 As noted above, the images can be placed in the media subfolders. The images probably isn't possible to upload via the GitHub web interface, but you can upload them to any public URL and link them from there.
 
