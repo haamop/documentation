@@ -13,7 +13,7 @@ You will notice the group column which will show you where the specific field wi
 3. Asterisks icon - These fields are required when filling in the contact form
 4. Globe icon - These fields are publicly updatable through the tracking pixel URL query (see [Contact Monitoring](contact_monitoring.html) for more details).
 
-### Published Fields
+### 필드 배포
 
 The check mark which shows before each label title is a clickable toggle which will publish and unpublish the field.
 

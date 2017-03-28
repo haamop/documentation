@@ -1,6 +1,6 @@
-# Manage Emails
+# 전자메일 관리
 
-### Email Overview
+### 전자메일 개요
 
 The email overview allows at-a-glance information regarding the success or failure of a particular email. You can quickly see relevant information in regards to opens, bounces, successful click-throughs and other important statistics.
 
@@ -14,7 +14,7 @@ When creating the email, an option is given to assign a language and a translati
 
 It is also possible to have translations of A/B test variants.
 
-### Segments
+### 세그먼트
 
 When creating an email you can select the segments to which you want to send the email.
 
@@ -22,7 +22,7 @@ When creating an email you can select the segments to which you want to send the
 
 This entry field is a multi-select which allows you to choose several segments if necessary.
 
-### Email Builder
+### 전자메일 빌더
 
 The email builder is a graphical user interface to create an HTML email through the use of drag-and-drop tools.
 
@@ -38,11 +38,11 @@ Email Builder has also special tokens for the Unsubscribe link and the Webview l
 - `{webview_text}` - Creates a link with the webview URL and the text defined in the Mautic configuration.
 - `{webview_url}` - Creates a URL to the webview page which can be used in a link's href attribute.
 
-### Code Mode
+### 코드 모드
 
 [Go to the Code Mode docs](./../themes/code_mode.html).
 
-### Base64 Encoded Images
+### Base64 인코딩 이미지
 
 Since Mautic 1.4, there is a new option in the Mautic configuration, the Email Settings tab. You can let Mautic encode all images in the email text as base64. It will attach the image inside the email body. It has several implications:
 

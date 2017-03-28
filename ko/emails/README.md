@@ -1,18 +1,18 @@
-# Emails
+# 전자메일
 
 Emails can be created to be used within campaigns and other list activities. Emails provide a means for direct interaction with potential customers, clients, and contacts.
 
-### Email Types
+### 전자메일 유형
 
 ![](/emails/media/types.png)
 
 There are two types of emails: template and segment (broadcasts). 
   
-#### Template Emails
+#### 전자메일 템플릿
 
 Template emails are transactional by default and can be used in campaigns, form submit actions, point triggers, etc. These can be sent to the same contact as many times as needed. These cannot be sent to a contact outside of another Mautic component except when sending an email directly to a contact in which the content is cloned (template emails sent directly to a contact are not associated with the template email itself and thus stats are not tracked against it).
  
-#### Segment (Broadcast) Emails
+#### 세그먼트 (브로드케스트) 전자메일
   
 These are marketing emails by default. Segments are assigned to the email which will determine which contacts receive the communication. Note that each contact can only receive the email once - it's like a mailing list.
 
@@ -43,11 +43,11 @@ php /path/to/mautic/app/console mautic:email:process --env=prod
 Some hosts may have limits on the number of emails that can sent during a specified timeframe and/or limit the execution time of a script. If that's the case for you, or if you just want to moderate batch processing, you can configure batch numbers and time limits in Mautic's Configuration. 
 
  
-### Email Fields
+### 전자메일 필드
 
 You have access to any number of contact fields to be used in your form emails. These can be easily placed within your emails and will be automatically replaced with the appropriate text once the email is sent.
 
-### Tracking Opened Emails ###
+### 오픈한 메일 추적 ###
 
 Each email sent through Mautic is tagged with a tracking pixel image. This allows Mautic to track when a contact opens the email and execute actions accordingly. Note that this technology is limited to the contact's email client supporting HTML and auto-loading of images. If the email client does not load the image, there is no way for Mautic to know if the email was opened.
 
@@ -57,10 +57,10 @@ Each email sent through Mautic is tagged with a tracking pixel image. This allow
 Clicks of each link in a email are tracked and whose clicks count can be found at the bottom of email detail page under Click Counts tab.
 
 
-### Unsubscribing ###
+### 수신거부 ###
 
 Mautic has a built in means of allowing a contact to unsubscribe from email communication. If using the builder, simply drag and drop the Unsubscribe Text or Unsubscribe URL tokens into your email. Or insert `{unsubscribe_text}` or `{unsubscribe_url}` into your custom HTML. The unsubscribe text token will insert a sentence with a link instructing the contact to click to unsubscribe. The unsubscribe URL token will simply insert the URL into your custom written instructions.
 
-### Online version ###
+### 온라인 버전 ###
 
 Mautic manages also the hosting of an online version of the email sent. To use that feature, simply add the following as URL on text to generate the online version link `{webview_url}`.
