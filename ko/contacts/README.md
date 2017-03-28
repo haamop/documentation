@@ -15,9 +15,9 @@ Mautic 1.4.0 버전의 리드가 연락처로 이름이 변경되었습니다
 
 Mautic 1.4.0 버전의 익명의 리드가 방문객으로 이름이 변경되었습니다.
 
-You can view visitors by using the 'table view' (use the "t" keyboard shortcut to view contacts in a table or "c" as cards) within the contacts section.
+연락처 섹션내에서 "테이블 보기"를 사용하여 방문자를 볼 수 있습니다 ("t" 키보드 단축키를 사용하여 연락처를 테이블 형태로 보거나, "c"를 사용하여 카드 형태로 볼 수 있습니다).
 
-Visitors are worth tracking, because these could be future customers. By tracking them before they have any interaction, you can retain a log of when they visited your site, which allows you to get a picture of their activity prior to engaging with you.
+방문객은 향후 고객이 될 수 있으므로, 추적할만한 가치가 있습니다. 상호 작용을 하기전에 추적하여 사이트 방문 이력을 관리 및 유지할 수 있습니다. 이를 통해 자신의 활동을 파악하고 측정할 수 있습니다.
 
 ##### 텍스트 검색
 
@@ -27,12 +27,12 @@ is:anonymous
 ##### 스크린샷
 
 ![](/contacts/media/contacts-anonymous.jpg)
-The resulting list will be those IP addresses which have not yet provided identifying information.
+결과 목록은 아직 식별 정보(연락처 정보등)를 제공하지 않은 IP 주소입니다.
 
 #### 표준 연락처
 
-The second type of contact is a standard contact. These contacts have identified themselves via a form or other source — you may also have more information about them from previous interactions. As a result, these contacts typically have a name, email, and other identifying information which can be associated with the contact.
+두번째 유형의 연락처는 표준 연락처입니다. 이러한 연락처는 양식이나 다른 출처를 통해 자신을 식별했고 상호 작용으로 더 많은 정보를 얻을 수 있습니다. 그에 대해 결과로 일반적인 연락처와 이름, 전자메일 및 기타 식별 정보를 제공합니다.
 
-The standard contact is the preferred contact within Mautic. These are contacts which may have started as a visitor, but at some point provided additional information such as a name, email address, social network handle, or other identifying characteristics. You can nurture these contacts through the Mautic marketing automation platform.
+표준 연락처는 Mautic에서 기본으로 제공하는 연락처입니다. 식별이 불가한 일반 방문자로 연결이 되었을 수 있지만, 이름, 전자메일 주소, 소셜 네트워크 핸들 도는 기타 식별 특성과 같은 추가 정보를 제공하는 연락처입니다. Mautic 마케팅 자동화 플랫폼을 통해 연락처 정보를 확대 관리 할 수 있습니다.
 
-The [연락처 관리](https://www.mautic.org/docs/en/contacts/managing_contacts.html) section provides more information on what you can manage with standard contacts.
+[연락처 관리](https://www.mautic.org/docs/en/contacts/managing_contacts.html) 섹션에서는 표준 연락처를 관리하는 방법에 대해 더 자세한 정보가 제공됩니다.
