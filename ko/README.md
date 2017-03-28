@@ -13,11 +13,11 @@
 
 #### 문서에서 git 을 사용한 이유
 
-- *버전*. Anyone can go back an look how the text looked like.
-- *authorship*. Not only every file, but every line has its author.
-- *커뮤니티 배포자*. No need to worry about deleting someone else's work while working on the same document.
+- *버전*. 누구나 변경된 내역을 볼 수 있습니다.
+- *원작자*. 모든 파일뿐만이 아니라, 모든 라인의 원작자가 작성한 내용을 볼 수 있습니다.
+- *커뮤니티 배포자*. 같은 문서에서 작업하는 동안 다른 사람이 작업하다 삭제하는 것에 대해 걱정할 필요가 없습니다.
 
-Although some git knowledge is required to clone, modify, commit and push changes, there is a way how to avoid that and edit the files directly in the GitHub web interface. If you know git, use the workflow you like. If not, following guide will show you how to contribute easily.
+변경 사항을 복제, 수정, 커밋 및 푸시하는데 필요한 일부 지식이 필요하지만, GitHub 웹 인터페이스를 통해 직접 파일을 편집하는 방법이 있습니다. git을 알고 있으면 원하는 워크 플로우를 사용할 수 있습니다. 그렇지 않은 경우에도 가이드를 따라하면 쉽게 기여할 수 있는 방법이 제공됩니다.
 
 #### 브라우저에서 문서 편집
 

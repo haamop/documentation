@@ -1,19 +1,19 @@
 # 연락처
 
-Leads were renamed to contacts in Mautic 1.4.0.
+Mautic 1.4.0 버전의 리드가 연락처로 이름이 변경되었습니다
 
-Contacts are the central factor of a marketing automation platform. These are all the individuals who have visited your websites or interacted with you in some way.
+연락처는 마케팅 자동화 플랫폼의 핵심 요소입니다. 이 기능은 웹사이트를 방문하거나 어떤식으로든 귀하와 상호 작용을 한 모든 개인의 정보입니다.
 
 ### 연락처 유형
 
 연락처에는 다음과 같은 2가지 유형이 있습니다:
-* **방문객** (formerly anonymous leads) — visitors to your site who have not yet been identified by a form or other interaction.
-  * These contacts are tracked by Mautic but typically remain hidden so as not to clutter your segment.
-* **표준 연락처** — contacts which have identified themselves via a form or some other source. As a result, these contacts typically have a name, email, and other identifying fields.
+* **방문객** (이전 버전에는 익명의 리드) — 양식 제출이나 다른 상호 작용에 의해서 아직 확인되지 않은 방문자.
+  * 이러한 연락처는 Mautic에 의해 추적되지만, 일반적으로 세그먼트의 혼란을 피하기 위해 표시하지 않음.
+* **표준 연락처** — 양식 제출 또는 다른 출처를 통해 자신을 식별한 연락처입니다. 결과적으로 이러한 연락처에는 일반적인 이름, 전자메일 및 기타 식별 필드가 포함됨.
 
-#### 방문객 (formerly anonymous leads)
+#### 방문객 (이전 버전에는 익명의 리드)
 
-Anonymous leads were renamed to visitors in Mautic 1.4.0.
+Mautic 1.4.0 버전의 익명의 리드가 방문객으로 이름이 변경되었습니다.
 
 You can view visitors by using the 'table view' (use the "t" keyboard shortcut to view contacts in a table or "c" as cards) within the contacts section.
 
