@@ -1,4 +1,4 @@
-#What's New
+# 새로운 내용
 In this section we'll highlight the new features for each major release of Mautic.  They are in version order beginning with the latest.
 
 ##Version 2.0

@@ -1,7 +1,7 @@
 # Mautic 문서
 
 ### 소개
-이 서적은 오픈 소스 마케팅 자동화 시스템인 [Mautic을 위한 문서](https://www.mautic.org/docs/index.html)이다. 누구나 이 정보를 개선하고 필요한 부분을 변경할 수 있다.
+이 서적은 오픈 소스 마케팅 자동화 시스템인 [Mautic을 위한 문서](https://www.mautic.org/docs/index.html)이다. 누구나 이 정보를 개선하고 필요한 부분을 변경할 수 있습니다.
 
 ### PDF로 다운로드
 
@@ -34,7 +34,7 @@ If you want to clean after the testing, go to the *Branches* section and delete 
 
 #### 파일 구조
 
-We've worked with the *README.md* file in the previous section. This file is shown in the home page of a GitHub repository and you are reading its content right now. It doesn't have anything to do with the Mautic documentation.
+이전 섹션에서 *README.md* 에 대해 작업했습니다. 이 파일은 현재 보고있는 내용과 같이 GitHub 저장소의 홈페이지에 표시됩니다. 이 사항은 Mautic 문서와 관련이 없습니다
 
 The *SUMMARY.md* file defines the menu of the documentation. If you'll add a new page to the documentation, you'll have to also add a new line there defining the title and the link to the file. It's pretty straightforward when you'll see the current menu items.
 
@@ -42,16 +42,16 @@ The folders are here to group the topics together. Open for example the *asset* 
 
 #### 링크
 
-Often you'll want to make a link into another place of the documentation. In Markdown, the link looks like this:
+간혹 문서내에서 다른 링크로 연결이 필요한 경우가 있습니다. Markdown에서 링크를 표시하시려면 다음과 같습니다:
 
 ```
-[link title](http://example.com)
+[링크 제목](http://example.com)
 ```
 
-This will create an external link with absolute URL. If you want to create an internal link, use the relative URL like this:
+이렇게하면 절대 URL의 외부 링크가 생성됩니다. 내부 링크를 만들려면 다음과 같이 상대 URL 을 사용하십시오:
 
 ```
-[these steps](./../plugins/integration_test.html)
+[단계](./../plugins/integration_test.html)
 ```
 This will link to `plugins/integration_test.html` on the documentation website created from the *md* source file.
 
