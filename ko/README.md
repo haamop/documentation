@@ -21,16 +21,15 @@
 
 #### 브라우저에서 문서 편집
 
-1. [Fork](https://github.com/mautic/documentation#fork-destination-box) this repository under your account so you'd have permission to edit.
-2. Select a file to edit. The file structure is explained below. Now, let's edit the *README.md* file to show the principles. Click on it.
-3. The content of *README.md* should be visible and the *Edit* button (the pencil icon) above as well. Hit it.
-4. The content is written in [Markdown markup](https://daringfireball.net/projects/markdown/). Very simple text based formating.
-5. Make a change to the file. For example add to the end `This is my first contribution`.
-6. When you made a change, scroll down and notice the form called *Commit changes*. This is important. To save a change, you have to describe what you've changed and why. Write for example `A new line added for testing purposes`. Do not save yet!
-7. Because the GitHub web interface does not provide all features of git, we won't have an easy way to revert our change back to the original state. We'd have to create another commit where we'd delete the added line. That would make a mess in the commit history. So instead, we create a new branch. There is a checkbox for it "Create a new branch...". The branch has to have a name. `{yourusername}-patch-1` will be prefilled. Let's change it to `{yourusername}-testing`. Click the *Propose file change* now.
-8. Ok, so the change exists in your repository now. To propose the change to the official repository, you have to send a pull request (PR). You've been redirected to do just that. Here you describe your proposed change and click (please don't send the testing PRs) the *Create pull request* button.
-
-If you want to clean after the testing, go to the *Branches* section and delete the testing branch.
+1. [Fork](https://github.com/mautic/documentation#fork-destination-box) 귀하의 계정에 있는 저장소이므로 직접 편집할 수 있는 권한이 있습니다.
+2. 편집할 파일을 선택하십시오. 파일 구조는 아래에 설명되어 있습니다. *README.md* 파일을 클릭하여 편집할 수 있습니다.
+3. *README.md* 파일의 내용이 보이고, *편집* 버튼(연필 아이콘)을 선택하십시오
+4. 내용은 [마크다운 마크업](https://daringfireball.net/projects/markdown/)으로 작성되어 있습니다. 매우 간단한 텍스트 기반의 서식입니다.
+5. 파일 내용을 변경합니다. 예제에서는 `초기 배포본`을 마지막에 추가합니다.
+6. 변경 후에는, 스크롤다운하여 *변경 적용*을 진행합니다. 이 사항은 매우 중요한 사항으로, 변경사항을 저장하고 변경된 사유를 설명할 수 있습니다. 예를 들어서 `테스트 목적으로 라인 추가함`으로 내용을 작성할 수 있습니다.
+7. 왜냐하면 GitHub 웹 인터페이스는 git의 모든 기능을 제공하지 않으므로, 원본 상태를 간단하게 변경전의 상태로 복원할 수 있는 쉬운 방법이 없습니다. 또한, 추가한 라인을 지우는 또다른 커밋을 해야 합니다. 이 사항은 이력관리의 혼동이 올 수 있으므로 새로운 지표를 만들어야 합니다. "새로운 브랜치 만들기..."라는 체크박스를 사용할 수 있으며, `{yourusername}-patch-1`가 기본값으로 설정된 것을 `{yourusername}-테스팅` 변경하고 *파일 변경 목적* 을 클릭하여 적용합니다.
+8. 이제 기존의 저장소에 있는 내용이 변경되었습니다. 공식 저장소를 변경할 목적이라면, pull request (PR) 을 전송합니다. 리다이렉트가 완료된 후, *Create pull request* 의 제안 내용을 변경하고 클릭하십시오. (테스트용 PR은 전송하지 마세요)
+테스트가 완료된 후에는, *브랜치* 섹션으로 이동하고 테스트용 브랜치를 삭제합니다.
 
 #### 파일 구조
 
