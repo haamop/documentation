@@ -1,4 +1,4 @@
-# Campaign Builder
+# 캠페인 빌더
 
 The Mautic campaign builder gives you a blank canvas upon which to build your campaign workflow. The overall interface is clean and simple with easy to use events. These actions, decisions, or conditions can be added through clicking the "anchors" of events.
 
