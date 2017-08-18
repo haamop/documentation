@@ -1,4 +1,4 @@
-## Campaign Events
+## 캠페인 이벤트
 
 Below are notes on some of the specific campaigns events. 
 
